@@ -1,8 +1,12 @@
-*. # ignore all files initially
+*. # ignore files with no file type ending
 *.html
 *.css
+*.txt # for any import text documents, you can add them manually
+*.jpg
+*.png
+*.download
+
 # do not ignore actual directories or subfolders -> unertain how to accomplish this
-!*.txt
 !*.csv
 !*.xlsx
 !*.py # do not ignore basic py files
