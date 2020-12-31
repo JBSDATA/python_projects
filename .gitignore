@@ -1,0 +1,9 @@
+*. # ignore all files initially
+*.html
+*.css
+# do not ignore actual directories or subfolders -> unertain how to accomplish this
+!*.txt
+!*.csv
+!*.xlsx
+!*.py # do not ignore basic py files
+!*.ipynb # do not ignore python notebooks
