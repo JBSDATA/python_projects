@@ -1,3 +1,4 @@
+.env
 *. # ignore files with no file type ending
 *.html
 *.css
